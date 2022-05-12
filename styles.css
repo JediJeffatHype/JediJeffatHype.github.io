@@ -29,6 +29,7 @@ body {
     background-position: center;
     position: relative;
 }
+
 .overlay {
     position: absolute;
     min-height: 100%;
@@ -59,6 +60,7 @@ body {
     background: rgb(255, 0, 0);
     border-radius: 0;
     color:#fff
+    
 
 }
 
@@ -66,4 +68,46 @@ body {
     border:1px solid rgb(255, 0, 0);
     background: rgb(255, 0, 0);
     color:#fff
+}
+
+.sus {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.sus h1 {
+    color: #000
+}
+.sus p {
+    color: rgb(0, 0, 0);
+    font-size: 18;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+.header {
+    background-image: url('assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bruh {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, 700%);
+    text-align: center;
+}
+.bruh h1 {
+    color: #000
+}
+.bruh p {
+    color: rgb(0, 0, 0);
+    font-size: 18;
+    line-height: 1.5;
+    font-weight: bold;
+
 }
